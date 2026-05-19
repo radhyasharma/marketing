@@ -1,0 +1,5 @@
+{
+  "username": "admin",
+  "password_hash": "$2y$12$m55BJBEfTUUAOtYW1zwF6O2IJf7LLRgZ0dtGJGIO4VbP6iKNA66ra",
+  "_note": "Default password is 'lsadmin2026' — CHANGE THIS BEFORE DEPLOYING. Generate a new hash with: php -r \"echo password_hash('your-new-password', PASSWORD_BCRYPT);\""
+}

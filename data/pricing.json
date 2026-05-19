@@ -1,0 +1,246 @@
+{
+    "currency": "INR",
+    "currency_symbol": "₹",
+    "note": "Prices are starting points. Final pricing may vary based on fabric, embellishments, and stains.",
+    "categories": [
+        {
+            "id": "men",
+            "name": "Men's Wear",
+            "icon": "shirt",
+            "items": [
+                {
+                    "name": "Shirt",
+                    "dry_clean": 99,
+                    "wash_iron": 49,
+                    "iron_only": 19
+                },
+                {
+                    "name": "T-Shirt",
+                    "dry_clean": 99,
+                    "wash_iron": 49,
+                    "iron_only": 19
+                },
+                {
+                    "name": "Trouser / Jeans",
+                    "dry_clean": 99,
+                    "wash_iron": 59,
+                    "iron_only": 25
+                },
+                {
+                    "name": "Kurta",
+                    "dry_clean": 119,
+                    "wash_iron": 69,
+                    "iron_only": 29
+                },
+                {
+                    "name": "Suit (2-piece)",
+                    "dry_clean": 349,
+                    "wash_iron": null,
+                    "iron_only": 99
+                },
+                {
+                    "name": "Sherwani",
+                    "dry_clean": 599,
+                    "wash_iron": null,
+                    "iron_only": 199
+                },
+                {
+                    "name": "Blazer / Coat",
+                    "dry_clean": 249,
+                    "wash_iron": null,
+                    "iron_only": 79
+                },
+                {
+                    "name": "Jacket",
+                    "dry_clean": 299,
+                    "wash_iron": null,
+                    "iron_only": 89
+                }
+            ]
+        },
+        {
+            "id": "women",
+            "name": "Women's Wear",
+            "icon": "dress",
+            "items": [
+                {
+                    "name": "Saree (Plain)",
+                    "dry_clean": 199,
+                    "wash_iron": 99,
+                    "iron_only": 49
+                },
+                {
+                    "name": "Saree (Designer)",
+                    "dry_clean": 449,
+                    "wash_iron": null,
+                    "iron_only": 149
+                },
+                {
+                    "name": "Salwar Suit",
+                    "dry_clean": 199,
+                    "wash_iron": 99,
+                    "iron_only": 49
+                },
+                {
+                    "name": "Lehenga (Plain)",
+                    "dry_clean": 599,
+                    "wash_iron": null,
+                    "iron_only": 199
+                },
+                {
+                    "name": "Lehenga (Heavy)",
+                    "dry_clean": 1499,
+                    "wash_iron": null,
+                    "iron_only": 399
+                },
+                {
+                    "name": "Dress",
+                    "dry_clean": 199,
+                    "wash_iron": 99,
+                    "iron_only": 49
+                },
+                {
+                    "name": "Gown",
+                    "dry_clean": 599,
+                    "wash_iron": null,
+                    "iron_only": 199
+                },
+                {
+                    "name": "Top / Blouse",
+                    "dry_clean": 99,
+                    "wash_iron": 49,
+                    "iron_only": 19
+                }
+            ]
+        },
+        {
+            "id": "kids",
+            "name": "Kids' Wear",
+            "icon": "baby",
+            "items": [
+                {
+                    "name": "Shirt / T-Shirt",
+                    "dry_clean": 79,
+                    "wash_iron": 39,
+                    "iron_only": 15
+                },
+                {
+                    "name": "Trouser / Jeans",
+                    "dry_clean": 79,
+                    "wash_iron": 39,
+                    "iron_only": 19
+                },
+                {
+                    "name": "Frock",
+                    "dry_clean": 149,
+                    "wash_iron": 79,
+                    "iron_only": 39
+                },
+                {
+                    "name": "School Uniform",
+                    "dry_clean": null,
+                    "wash_iron": 79,
+                    "iron_only": 29
+                }
+            ]
+        },
+        {
+            "id": "household",
+            "name": "Household",
+            "icon": "home",
+            "items": [
+                {
+                    "name": "Bedsheet (Single)",
+                    "dry_clean": 199,
+                    "wash_iron": 99,
+                    "iron_only": 49
+                },
+                {
+                    "name": "Bedsheet (Double)",
+                    "dry_clean": 299,
+                    "wash_iron": 149,
+                    "iron_only": 79
+                },
+                {
+                    "name": "Pillow Cover",
+                    "dry_clean": 49,
+                    "wash_iron": 25,
+                    "iron_only": 15
+                },
+                {
+                    "name": "Curtain (per ft)",
+                    "dry_clean": 49,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Blanket (Single)",
+                    "dry_clean": 349,
+                    "wash_iron": 199,
+                    "iron_only": null
+                },
+                {
+                    "name": "Blanket (Double)",
+                    "dry_clean": 499,
+                    "wash_iron": 299,
+                    "iron_only": null
+                },
+                {
+                    "name": "Carpet (per sq ft)",
+                    "dry_clean": 25,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Sofa Cover",
+                    "dry_clean": 199,
+                    "wash_iron": null,
+                    "iron_only": null
+                }
+            ]
+        },
+        {
+            "id": "premium",
+            "name": "Premium Care",
+            "icon": "crown",
+            "items": [
+                {
+                    "name": "Wedding Lehenga (Heavy Bridal)",
+                    "dry_clean": 2999,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Wedding Sherwani",
+                    "dry_clean": 1499,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Leather Jacket",
+                    "dry_clean": 999,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Suede / Fur Coat",
+                    "dry_clean": 1499,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Silk Saree (Kanjeevaram)",
+                    "dry_clean": 699,
+                    "wash_iron": null,
+                    "iron_only": null
+                },
+                {
+                    "name": "Pashmina Shawl",
+                    "dry_clean": 599,
+                    "wash_iron": null,
+                    "iron_only": null
+                }
+            ]
+        }
+    ]
+}

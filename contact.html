@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" data-data-base="data">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Pickup — LS Dry Cleaners</title>
+  <meta name="description" content="Schedule a free pickup, get a quote, or contact LS Dry Cleaners.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">LS</span><span>LS Dry Cleaners</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-ghost active">Contact</a>
+        <a href="#book" class="btn btn-primary btn-arrow">Schedule Pickup</a>
+        <button class="menu-toggle" aria-label="Open menu"><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="blog.html">Journal</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span> Contact</div>
+      <span class="eyebrow" style="margin-top: 16px">We answer the phone ourselves</span>
+      <h1>Get in <span class="gold-text">touch.</span></h1>
+      <p class="lead" style="margin: 1rem auto 0">Schedule a pickup, ask about a stain, or just say hello. We're here 7 AM – 9 PM, every day.</p>
+    </div>
+  </section>
+
+  <section style="padding-top: 0" id="book">
+    <div class="container">
+      <div class="contact-grid reveal">
+
+        <div class="contact-info-card">
+          <div class="contact-block">
+            <h4>Phone &amp; WhatsApp</h4>
+            <p><a href="tel:+919999999999">+91 99999 99999</a></p>
+            <p style="font-size:.88rem;color:var(--text-mute);margin-top:4px">7 AM – 9 PM, all days</p>
+          </div>
+          <div class="contact-block">
+            <h4>Email</h4>
+            <p><a href="mailto:hello@lsdrycleaners.in">hello@lsdrycleaners.in</a></p>
+            <p style="font-size:.88rem;color:var(--text-mute);margin-top:4px">Replies within 4 hours</p>
+          </div>
+          <div class="contact-block">
+            <h4>Service Area</h4>
+            <p>Mumbai · Delhi NCR · Bengaluru · Chennai · Hyderabad · Pune</p>
+            <p style="font-size:.88rem;color:var(--text-mute);margin-top:4px">Same-day pickup in metro zones</p>
+          </div>
+          <div class="contact-block" style="margin-bottom: 0">
+            <h4>Headquarters</h4>
+            <p>14 Lloyds Road,<br>Royapettah, Chennai 600014</p>
+          </div>
+        </div>
+
+        <form class="contact-info-card" id="bookForm" onsubmit="return handleBook(event)">
+          <h3 style="margin-bottom: 8px">Schedule a free pickup</h3>
+          <p style="color:var(--text-mute);font-size:.92rem;margin-bottom: 28px">Fill in your details and we'll confirm your slot within 30 minutes.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+91 9XXXX XXXXX">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">Service needed</label>
+              <select id="service" name="service" required>
+                <option value="">Select…</option>
+                <option>Dry Cleaning</option>
+                <option>Wash &amp; Iron</option>
+                <option>Steam Press</option>
+                <option>Bridal &amp; Heirloom</option>
+                <option>Leather &amp; Suede</option>
+                <option>Curtains &amp; Drapes</option>
+                <option>Monsoon Storage</option>
+                <option>Not sure — recommend for me</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="slot">Preferred pickup</label>
+              <select id="slot" name="slot" required>
+                <option value="">Select…</option>
+                <option>Today (before 9 PM)</option>
+                <option>Tomorrow morning (8–11 AM)</option>
+                <option>Tomorrow afternoon (1–5 PM)</option>
+                <option>Tomorrow evening (5–9 PM)</option>
+                <option>This weekend</option>
+                <option>I'll choose on call</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="addr">Pickup address</label>
+            <input type="text" id="addr" name="addr" required placeholder="Building, area, city">
+          </div>
+
+          <div class="form-group">
+            <label for="notes">Special instructions <span style="opacity:.5">(optional)</span></label>
+            <textarea id="notes" name="notes" placeholder="Any specific stains, fabrics, or care notes…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-arrow" style="width: 100%; justify-content: center">Schedule Free Pickup</button>
+          <p style="font-size:.78rem;color:var(--text-dim);text-align:center;margin-top: 16px">By scheduling, you agree to our service terms. We'll never spam you.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand">
+            <span class="brand-mark">LS</span><span>LS Dry Cleaners</span>
+          </a>
+          <p class="desc" style="margin-top: 16px">Premium dry cleaning and garment care, delivered to your door across India.</p>
+          <div class="socials" style="margin-top: 24px">
+            <a href="#">Ig</a><a href="#">Fb</a><a href="#">X</a><a href="#">Wa</a>
+          </div>
+        </div>
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">Dry Cleaning</a></li>
+            <li><a href="services.html">Wash &amp; Iron</a></li>
+            <li><a href="services.html">Bridal Care</a></li>
+            <li><a href="services.html">Garment Storage</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Get in touch</h5>
+          <ul>
+            <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+            <li><a href="mailto:hello@lsdrycleaners.in">hello@lsdrycleaners.in</a></li>
+            <li>7 AM – 9 PM, all days</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 LS Dry Cleaners. All rights reserved.</div>
+        <div><a href="admin/" style="color:var(--text-dim)">Admin</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleBook(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = Object.fromEntries(new FormData(form));
+      // Static preview: wire to real backend (PHP/email/CRM) on deploy.
+      form.innerHTML = `
+        <div style="text-align:center;padding: 40px 20px">
+          <div style="font-size: 3rem;color:var(--gold);margin-bottom: 16px">✦</div>
+          <h3 style="margin-bottom: 12px">Pickup scheduled</h3>
+          <p style="color:var(--text-mute)">Thank you, ${data.name.split(' ')[0]}. We'll confirm your slot at ${data.phone} within 30 minutes.</p>
+          <p style="color:var(--text-dim);font-size:.85rem;margin-top: 24px">(In a live deployment, this form posts to your PHP/email/CRM backend.)</p>
+        </div>
+      `;
+      return false;
+    }
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
