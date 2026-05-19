@@ -333,8 +333,12 @@ section { padding: clamp(80px, 12vw, 160px) 0; position: relative; }
 }
 #hero-canvas {
   position: absolute;
-  inset: 0;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 80%;
   z-index: 0;
+  pointer-events: none;
 }
 .hero-grid {
   display: grid;
